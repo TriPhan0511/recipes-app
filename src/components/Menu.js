@@ -3,7 +3,7 @@ import Recipe from './Recipe'
 import StarRating from './StarRating'
 
 function Menu() {
-	return <StarRating />
+	return <StarRating totalStars={5} />
 }
 // function Menu({ recipes }) {
 // 	return (
